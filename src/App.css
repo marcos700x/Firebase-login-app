@@ -1,0 +1,25 @@
+.App{
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  min-height: 100vh;
+}
+main{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-loading{
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topbar{
+  backdrop-filter: blur(4px);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
